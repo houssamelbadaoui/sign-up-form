@@ -23,3 +23,30 @@ body {
   display: flex;
   min-height: 100vh;
 }
+.left-panel {
+  flex: 1;
+  background-image:
+    linear-gradient(var(--color-overlay), var(--color-overlay)),
+    url("../images/SignUp.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2rem;
+}
+.branding {
+  text-align: center;
+  color: var(--color-light);
+}
+.branding h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin-bottom: 1rem;
+}
+.branding p {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  opacity: 0.9;
+}
